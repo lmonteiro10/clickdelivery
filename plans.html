@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Click Delivery - Plans</title>
+    <link rel="stylesheet" href="assign04.css">
+    <script src="assign04.js"></script>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            padding: 0;
+            margin: 0;
+            font-family: gilroy-black;
+            font-family: var(--font-secondary-strong);
+            color: var(--color-secondary-strong);
+            font-size: 33px;
+            font-weight: 400;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .top-title{
+            height: 50px;
+            color: rgb(1, 16, 80);
+        }
+
+        #plan1 {
+            height: 15cm;
+            width: 8cm;
+            border: 4px solid;
+            border-radius: 25px;
+            border-color: #34323a88;
+            float: left;
+            font-size: 35px;
+            padding-top: 10px;
+            padding-bottom: 11px;
+            margin-left: 20%;
+            background-color: #d4d2dd88;
+        }
+
+        #master {
+            height: 560px;
+            width: 150px;
+            display: inline-block;
+            padding-top: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        #plan2 {
+            height: 15cm;
+            width: 8cm;
+            border: 4px solid;
+            border-radius: 25px;
+            border-color: #34323a88;
+            float: right;
+            margin-right:282px;
+            font-size: 35px;
+            padding-top: 10px;
+            padding-bottom: 11px;
+            background-color: #d4d2dd88; 
+        }
+
+        #top-div-diamond {
+            height: 35px;
+            width: 100%;
+            margin-left: 30%;
+            font-family: initial;
+            font-style: italic;
+            font-variant: small-caps;
+            color: #1b006d;
+        }
+
+        #top-div-gold {
+            height: 35px;
+            width: 100%;
+            margin-left: 39%;
+            font-family: initial;
+            font-style: italic;
+            font-variant: small-caps;
+            color: #1b006d;
+        }
+
+        #price-gold {
+            height: 20px;
+            width: 100%;
+            margin-left: 29%;
+            font-family: initial;
+            font-style: italic;
+            font-variant: small-caps;
+            margin-top: -17px;
+            color: #1b006d;
+        }
+
+        #price-diamond {
+            height: 20px;
+            width: 100%;
+            margin-left: 29%;
+            font-family: initial;
+            font-style: italic;
+            font-variant: small-caps;
+            margin-top: -17px;
+            color: #1b006d;
+        }
+
+    </style>
+    </head>
+<body>
+    <div id="body">
+        <header>
+            <div id="logo-div">
+                <img id="logo" src="logo.png" alt="logo">
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="assign04.html">Home</a></li>
+                    <li><a href="#plans.html">Plans</a></li>
+                    <li><a href="assign04.html#about-us">About us</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <div id="main">
+            <h1 class="top-title"><i>Plans and Prices</i></h1>
+            <h2 class="top-title">Check the advantages of being <span class="primary">Click Delivery!</span></h2>
+            <div id="master">
+                <ul id="info-master">
+                    <li id="op1">Order Panel</li>
+                    <li id="op2">Multi users</li>
+                    <li id="op3">No Order limit</li>
+                    <li id="op4">Mobile APP</li>
+                    <li id="op5">Whatsapp Integration</li>
+                </ul>
+            </div>
+            <div id="plan1">
+                <div id="top-div-gold"><i>Gold</i></div>
+                <hr>
+                <ol id="info1">
+                    <li id="p1"><img id="correct" src="correct.png" alt="p1"></li>
+                    <li id="p2"><img id="correct1" src="correct.png" alt="p2"></li>
+                    <li id="p3"><img id="correct2" src="correct.png" alt="p3"></li>
+                    <li id="p4"><img id="correct3" src="incorrect.png" alt="p4"></li>
+                    <li id="p5"><img id="correct4" src="incorrect.png" alt="p5"></li>
+                </ol>
+                <hr>
+                <div id="price-gold"><i>$20,00</i></div>
+            </div> 
+            <div id="plan2">
+                <div id="top-div-diamond"><i>Diamond</i></div>
+                <hr>
+                <ol id="info2">
+                    <li id="p6"><img id="correct5" src="correct.png" alt="p6"></li>
+                    <li id="p7"><img id="correct6" src="correct.png" alt="p7"></li>
+                    <li id="p8"><img id="correct7" src="correct.png" alt="p8"></li>
+                    <li id="p9"><img id="correct8" src="correct.png" alt="p9"></li>
+                    <li id="p10"><img id="correct9" src="correct.png" alt="p10"></li>
+                </ol>
+                <hr>
+                <div id="price-diamond"><i>$30,00</i></div>
+            </div>
+        </div> 
+        <hr>
+        <br>
+        <div id="contact">
+            <form id="form">
+                <h3>Contact</h3>
+                <label for="name">First Name: <input id="name" required type="text" name="firstname" placeholder="Enter your name"></label><br>
+                <label for="email">E-mail: <input id="email" required type="email" name="email" placeholder="example@email.com"></label><br>
+                <label for="whatsapp">Whatsapp: <input id="whatsapp" required type="tel" name="phone" placeholder="+55 (32)12345-4567"></label><br>
+                <label for="age">Number of colaborators:<br>
+                    <select id="age">
+                        <option value="none" selected disabled>None</option>
+                        <option value="0to5">0 - 5</option>
+                        <option value="6to10">6 - 10</option>
+                        <option value="11more">11 or more</option>
+                    </select>
+                </label><br>
+                <label for="message">Message: <br><textarea id="message" name="message" placeholder="Type your message" cols="30" rows="10"></textarea></label><br>
+                <label for="terms"><input id="terms" type="checkbox" name="terms">I accept the terms and conditions</label><br>
+                <div id="buttoms"> 
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">    
+                </div>
+            </form>  
+            <div id="gif"><img src="gif.gif" alt="gif"></div> 
+        </div>
+        </div>  
+    <div id="footer">
+        <footer>
+            <div id="footer-p"><p>© CLICK DELIVERY LTDA  - ALL RIGHTS RESERVED®</p></div>
+            </footer>
+    </div>      
+</body>
+</html>      
+
+

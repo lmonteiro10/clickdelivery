@@ -1,0 +1,347 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    width: 100%;
+}
+
+header {
+    height: 5cm;
+    width: inherit;
+    margin-left: 0px;
+    background-color: #dcddd288;
+    margin-top: -8px;     
+}
+
+#menu {
+    margin-top: 2px;
+    height: 1.2cm;
+    padding: 0.5%;
+}
+
+#menu ul {
+    margin-left: -75px;
+    padding-left: 32%;
+    margin-top: 4px;
+    position: absolute;
+    display: flex;
+}
+
+#menu ul li { 
+    display:inline;
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* Link Style */
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px #f7e69cb7;
+}
+
+#menu ul li a:hover {
+    border-bottom:3px solid rgb(1, 16, 80);
+}
+
+#logo-div {
+    height: 3cm;
+    width: 4cm;
+    margin-left: 42%;
+}
+
+#logo{
+    max-width: 100%;
+    padding: 0px;
+    margin-top: 10px;    
+    height: 5cm;
+    width: 150px;
+    height: 100px;
+}
+
+body {
+    margin-bottom: 40px;
+}
+
+#banner-space {
+    height: 11cm;
+}
+
+#video {
+    margin-left: 25%;
+}
+
+#img-div {
+    width: 16cm;
+    height: 7.5cm;
+    float: left;
+}
+
+#brazil-img {
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+#about-us {
+    height: 10cm;
+}
+
+#about-text {
+    text-align: justify;
+    font-size: large;
+    float: right;
+    width: 50%;
+    margin-right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footer{
+    width: 100%;
+    height: 25px;
+    position: relative;
+    margin-top: -15px;
+    margin-bottom: -60px;
+    padding: 0.01px;
+    text-align: center;
+    background-color: #29263888;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Plans Page*/
+
+#main {
+    height: 20cm;
+}
+
+#correct {
+    width: 50px;
+}
+
+#correct1 {
+    width: 50px;
+}
+
+#correct2 {
+    width: 50px;
+}
+
+#correct3 {
+    width: 50px;
+}
+
+#correct4 {
+    width: 50px;
+}
+
+#correct5 {
+    width: 50px;
+}
+
+#correct6 {
+    width: 50px;
+}
+
+#correct7 {
+    width: 50px;
+}
+
+#correct8 {
+    width: 50px;
+}
+
+#correct9 {
+    width: 50px;
+}
+
+#p1 {
+    margin-top: -5px;
+}
+
+#p2 {
+    margin-top: 35px;
+}
+
+#p3 {
+    margin-top: 35px;
+}
+
+#p4 {
+    margin-top: 35px;
+}
+
+#p5 {
+    margin-top: 35px;
+}
+
+#p6 {
+    margin-top: -5px;
+}
+
+#p7 {
+    margin-top: 35px;
+}
+
+#p8 {
+    margin-top: 35px;
+}
+
+#p9 {
+    margin-top: 35px;
+}
+
+#p10 {
+    margin-top: 35px;
+}
+
+
+#info-master {
+    margin-top: 33px;
+    height: 12.52cm;
+    padding-left: 40%;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#info1 {
+    height: 10.7cm;
+    padding-left: 40%;
+    margin-top: 30px;
+}
+
+#info2 {
+    height: 10.7cm;
+    padding-left: 40%;
+    margin-top: 30px;
+}
+
+#op1 {
+    width: 50px;
+    margin-top: 80px;
+    margin-left: 0%;
+    text-align: justify; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(1, 16, 80);
+}
+
+#op2 {
+    margin-top: 35px;
+    margin-left: 0%;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(1, 16, 80);
+}
+
+#op3 {
+    margin-top: 30px;
+    margin-left: 0%;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(1, 16, 80);
+}
+
+#op4 {
+    margin-top: 40px;
+    margin-left: 0%;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(1, 16, 80);
+}
+
+#op5 {
+    margin-top: 35px;
+    margin-left: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(1, 16, 80);
+}
+
+#contact {
+    width: 100%;
+    display: inline-block;
+    margin-top: -20px;
+    height: 330px;
+}
+
+#form {
+    margin-left: -900px;
+    margin-bottom: 40px;
+    line-height: 0.7cm;
+    position: relative;
+    margin-left: 10px;
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: fit-content;
+    float: left;
+}
+
+textarea {
+    height: 25px;
+    resize: none;
+}
+
+h3{
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #47199bbe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+#contact label{
+    position:relative;
+    margin-left: 10px;
+    }
+
+
+#contact input#name{
+    position:relative;
+    width: 140px;
+    margin-left: 10px;
+    }
+
+#contact input#email{
+    position:relative;
+    width: 172px;
+    margin-left: 10px;
+}
+
+#contact input#whatsapp{
+    position:relative;
+    width: 146px;
+    margin-left: 10px;
+}
+
+#contact select#age{
+    position:relative;
+    width: 110px;
+    margin-left: 10px;
+}
+
+#contact textarea{
+    position:relative;
+    width: 230px;
+    max-width: 230px;
+    min-width: 50px;
+}
+
+#gif {
+    margin-left: 40%;
+}
+
